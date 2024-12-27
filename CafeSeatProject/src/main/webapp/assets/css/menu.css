@@ -1,0 +1,237 @@
+/* import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("fontawesome-all.min.css"); */
+@import url("paperlogy_font.css");
+
+/* 메뉴 리스트 --------------------------------------------*/
+
+/* 카테고리 ------------------------------------------------ */
+#category {
+	display: inline-block;
+	height: 0;
+}
+
+#category .radio_category {
+	display: inline-block;
+	width: 320px;
+	height: 0;
+	margin-right: 50px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#category .radio_category:nth-child(3) {
+	margin-right: -50px;
+}
+
+
+#category .radio_category label {
+	display: inline-block;
+	border-radius: 20px;
+	width: 320px;
+	height: 50px;
+    font-family: 'Paperlogy-7Bold';
+	color: #74512D;
+	font-size: 18px;
+	text-align: center;
+	background-color: #F8F4E1;
+	box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+#category .radio_category label:hover {
+	background-color: #AF8F6F;
+	color: #F8F4E1;
+}
+
+#category .radio_category input[type='radio'] {
+	display: none;
+}
+
+#category .radio_category input[type='radio']:checked + label {
+	background-color: #AF8F6F;
+	color: #F8F4E1;
+	border: none;
+} 
+
+/*  menu 이름, 가격, 이미지  -----------------------*/
+#menuList {
+	display: flex;
+	flex-flow: wrap;
+	column-gap: 2em;
+	margin-top: 30px;
+	/* column-count: 3;	 */	
+}
+
+#menuList .menu {
+	/* display: inline-block; */
+	/* margin-bottom: 20px; */
+	/* margin: auto 15px 20px 15px; */
+}
+
+#menuList .menu .menuName {
+    font-family: 'Paperlogy-6SemiBold';
+	display: block;
+	cursor: inherit;
+	width: 320px;
+	font-size: 20px;
+	text-align: center;
+	padding: 0;
+	margin-top: 35px;
+	letter-spacing: 1px;
+	background-color: white;
+	color: #4e4e4e;;
+}
+
+#menuList .menu .menuprice {
+    font-family: 'Paperlogy-5Medium';	
+	display: block;
+	cursor: inherit;
+	width: 320px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+	background-color: white;
+	color: #606060;
+}
+
+#menuList .menu .menuImg {
+	background-color: white;
+	padding: 0;
+	cursor: pointer;
+}
+
+#menuList .menu .menuImg img {
+		/* display: block; */
+	width: 320px;
+	height: 240px;
+	outline: 1px solid #cccccc;
+	border-radius: 15px;
+} 
+
+/* 주문 내역 ---------------------------*/
+
+#order {
+	margin-top: 5px;
+}
+
+#order #orderDetail  {
+	width: 700px;
+	border:none;
+	float: left;
+}
+
+#order #orderDetail .hidden {
+	display: none;
+}
+
+
+#order #orderDetail th {
+	border-bottom: 2px solid #74512D;
+	border-style: dashed;
+    font-family: 'Paperlogy-6SemiBold';
+	color: #3A2714;
+	font-size: 19px;
+	width: 167px;
+	padding: 2px;
+}
+
+#order #orderDetail td {
+	text-align: center;
+	border: none;
+    font-family: 'Paperlogy-4Regular';
+	color: #3A2714;
+	font-size: 19px;
+	padding: 2px;
+}
+
+#order #orderDetail #orderName, #orderCount, #orderPrice{
+    font-family: 'Paperlogy-5Medium';
+	border: none;
+	font-size: 17px;
+	text-align: center;
+	padding: 3px;
+	cursor: inherit;
+	outline: none;
+}
+#order #orderDetail 
+
+/* 결제 --------------------------------------- */
+#payType {
+	text-align:center;
+}
+
+#payType #price {
+	width: 350px;
+	float: right;
+	text-align: center;
+}
+
+#payType #price #totalPrice {
+	border: none; 
+	text-align: center;
+    font-family: 'Paperlogy-8ExtraBold';
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	cursor: inherit;
+	outline: none;
+	color: tomato;
+ 	margin-left: 80px;
+	width: 300px;
+} 
+
+#order #payType {
+	float: right;
+	width: 250px;
+	height: 270px;
+	margin-bottom: 60px;
+} 
+
+#order #payType #kakaopay {
+	background-color: white;
+	margin-top: 20px;
+}
+
+#order #payType #kakaopay img {
+	width: 230px;
+	height: 50px;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#order #payType #tosspay {
+	background-color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#order #payType #tosspay img{
+	width: 200px;
+	height: 35px;
+	cursor: pointer;
+}	
+
+#order #payType #payETC {
+	width: 230px;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 20px;
+	background-color: #ffffff;
+	color: #3A2714;
+	border-radius: 15px;
+    font-family: 'Paperlogy-7Bold';
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+	font-size: 20px;
+/* 	font-weight: bold; */
+}
+
+#order #payType #payETC:hover {			
+	background-color: #AF8F6F;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+	cursor: pointer;
+}
+
+form input[type="text"] {
+	background-color: #ffffff;
+}
+		

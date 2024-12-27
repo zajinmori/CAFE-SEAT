@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url("paperlogy_font.css");
+
+#login {
+    display: float;
+    justify-content: center;
+}
+
+.panel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1.title {
+	font-family: 'Paperlogy-7Bold';
+	/* color: #AF8F6F; */
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.register-table,
+.member-table,
+.additional-table {
+	width: 100%;
+}
+
+.register-table {
+    margin-bottom: 100px;
+}
+
+.register-table th, 
+.member-table th,
+.additional-table th {
+	font-family: 'Paperlogy-8ExtraBold';
+	display: block;
+	text-align: right;
+	color: #74512D;
+	font-size: 27px;
+	margin-bottom: 30px;
+	padding-right: 30px;
+}
+
+#id-container {
+    display: flex; 
+    flex-direction: row; /* 가로 방향 배치 */
+    align-items: center; /* 세로 정렬 */
+    gap: 2%; 			 /* 요소 간 간격 조정 */
+}
+
+th#id,
+th#pw,
+th#checkPw {
+    text-align: right;
+}
+
+#btnCheck {
+	font-family: 'Paperlogy-7Bold';
+	background-color: #74512D;
+	color: #F8F4E1;
+	width: 18%;
+	height: 65px;
+	font-size: 22px;
+	text-align: center;
+	border-radius: 10px;
+	/* margin-bottom: 20px; */
+	/* margin-left: 40px; */
+}
+
+#btnCheck:hover {
+	background-color: #AF8F6F;
+	color: #F8F4E1;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.choice {
+	margin-left: -10px;
+	font-family: 'Paperlogy-7Bold';
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F8F4E1;
+	color: #74512D;
+	border: none;
+	width: 31%;
+	height: 65px;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+/* 라디오 버튼 label > 커서 올렸을 때 */
+.choice:hover {
+    background-color: #AF8F6F;
+	color: #F8F4E1;
+	cursor: pointer;
+}
+
+.opt-member:checked + label {
+   	background-color: #AF8F6F;
+	color: #F8F4E1;
+}
+
+#id, #pw, #checkPw, 
+#name, #tel, #email, #companyId {
+	font-family: 'Paperlogy-6SemiBold';
+    border-radius: 10px;
+    background-color: #F8F4E1;
+    color: #74512D;
+    font-size: 22px;
+    border: none;
+	height: 65px;
+    padding-left: 30px;
+}
+
+#id, #pw, #checkPw, 
+#name, #tel, #email {
+	width: 65%;
+}
+
+#companyId {
+	width: 75%;
+}
+
+.member-table,
+.additional-table  {
+	margin-bottom: 0;
+}
+
+.additional-table {
+	margin-left: -100px;
+}
+
+.register-button {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-sizing: content-box;
+}
+
+.btnRegister {
+	font-family: 'Paperlogy-7Bold';
+	background-color: #74512D;
+	color: #F8F4E1;
+	width: 30%;
+	height: 35px;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.btnRegister:hover {
+	background-color: #AF8F6F;
+	color: #F8F4E1;
+}
+
+#btnCheck:disabled,
+#btnRegister:disabled {
+    pointer-events: none;
+    cursor: not-allowed; 	   /* 클릭 불가 표시 */
+    background-color: #a2a3a4; /* 비활성화된 버튼 스타일 */
+}
+
+#idResult,
+#pwResult,
+#pwCheckResult,
+#nameResult,
+#telResult,
+#emailResult,
+#companyIdResult {
+	font-family: 'Paperlogy-6SemiBold'; 
+    font-size: 20px;
+}
+
+.color-red {
+    color: red; 
+}
+
+.color-blue {
+    color: blue;
+}
+
+.inline-block {
+    display: inline-block; 
+}
+
+.margin-10px {
+    margin: 10px;
+}

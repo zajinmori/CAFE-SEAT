@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Oct/2024:17:43:15 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/index.do HTTP/1.1" 200 5299
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/js/main.js HTTP/1.1" 200 4438
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/js/util.js HTTP/1.1" 200 12433
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/js/breakpoints.min.js HTTP/1.1" 200 2440
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/css/main.css HTTP/1.1" 200 38198
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/js/browser.min.js HTTP/1.1" 200 2052
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:17 +0900] "GET /cafe/assets/js/jquery.min.js HTTP/1.1" 200 89503
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:18 +0900] "GET /cafe/assets/css/fontawesome-all.min.css HTTP/1.1" 200 59501
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:18 +0900] "GET /cafe/assets/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76736
+0:0:0:0:0:0:0:1 - - [18/Oct/2024:17:43:18 +0900] "GET /cafe/assets/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78268
